@@ -1,0 +1,21 @@
+file = open('myfile.txt','wt')
+print('myfile.txt 파일이 생성되었습니다.')
+file.close()
+
+with open('myfile2.txt', 'wt') as file:
+    print('myfile2.txt was created')
+
+file = open('hello.txt, 'wt')
+file = write('hi there')
+file = write('\n')
+file = write('good 2 cu')
+file = write(\n)
+print('hello.txt was created')
+
+file.close()
+
+file = open('hello.txt, 'at')
+
+file = write('hello.\n)
+file = write('nice 2 meet u.\n)
+print('hello.txt was created')
